@@ -5,7 +5,7 @@ var tokenizer = {
   },
 
 
-  "tokenize"": function (script) {
+  "tokenize": function (script) {
     var script_lines = tokenizer.clean(script).split(sections.splitter),
         line, 
         match, 
