@@ -1,19 +1,17 @@
 # Fountain
 
-A JavaScript parser for Fountain formated scripts that is compatible with Node.js and Browserify.
+A JavaScript parser for Fountain formated scripts that has no dependencies
 
 
 ## Install
 
-    npm install fountain-js
+    include it like any other script
 
 
 ## Use
 
-    var fountain = require('fountain-js');
-    
     // Give it a callback
-    fountain.parse(string, function (output) {
+    parser.parse(string, function (output) {
       // output.title;
       // output.credit;
       // output.authors;
@@ -31,8 +29,3 @@ A JavaScript parser for Fountain formated scripts that is compatible with Node.j
     
     // Get the output directly
     var output = fountain.parse(string);
-
-
-## Test
-
-    npm test
