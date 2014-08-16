@@ -1,11 +1,11 @@
 var tokenizer = {
   
-  clean: function (script) {
+  "clean": function (script) {
     return script.replace(sections.boneyard, '\n$1\n').replace(sections.standardizer, '\n').replace(sections.cleaner, '').replace(sections.whitespacer, '');
   },
 
 
-  tokenize: function (script) {
+  "tokenize"": function (script) {
     var script_lines = tokenizer.clean(script).split(sections.splitter),
         line, 
         match, 
@@ -137,5 +137,3 @@ var tokenizer = {
   }
   
 };
-
-module.exports = tokenizer;
