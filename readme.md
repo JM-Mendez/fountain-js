@@ -1,6 +1,6 @@
 # Fountain
 
-A JavaScript parser for Fountain formated scripts that has no dependencies
+A JavaScript parser for Fountain formatted scripts that has no dependencies
 
 
 ## Install
