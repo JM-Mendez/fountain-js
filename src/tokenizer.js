@@ -1,6 +1,3 @@
-var sections = require('./sections');
-
-
 var tokenizer = {
   
   clean: function (script) {
