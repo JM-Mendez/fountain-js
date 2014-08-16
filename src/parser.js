@@ -1,5 +1,5 @@
 var parser = {
-  parse: function (script, _options, callback) {
+  "parse": function (script, _options, callback) {
     if (callback === undefined && typeof _options === 'function') {
       callback = _options;
       _options = {};
@@ -164,7 +164,7 @@ var parser = {
   
 
 
-  lexer: function (s) {
+  "lexer": function (s) {
     if (!s) {
       return;
     }  
