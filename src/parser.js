@@ -1,7 +1,3 @@
-var sections = require('./sections'),
-    tokenizer = require('./tokenizer');
-
-
 var parser = {
   parse: function (script, _options, callback) {
     if (callback === undefined && typeof _options === 'function') {
