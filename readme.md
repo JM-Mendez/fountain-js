@@ -5,7 +5,7 @@ A JavaScript parser for Fountain formated scripts that has no dependencies
 
 ## Install
 
-    include it like any other script
+    include sections.js, then tokenizer.js, then parser.js in your html
 
 
 ## Use
