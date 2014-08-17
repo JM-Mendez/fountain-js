@@ -59,7 +59,7 @@ var tokenizer = {
     
       // dialogue blocks - characters, parentheticals and dialogue
       if (match = line.match(sections.dialogue)) {
-        if (match[1].indexOf('  ') !== match[1].length - 2) {
+        if (line.indexOf("!") !== 1) {  //if it doesn't begin with ! which forces it to be an action
           parts = match[3].split(/(\(.+\))(?:\n+)/).reverse();
 
           dual_diaglogue = !!match[2];
